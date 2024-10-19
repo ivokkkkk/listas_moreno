@@ -1,0 +1,43 @@
+//10) Solicite o mês (em número) para o usuário e apresente a descrição do mesmo
+//(Ex. “janeiro”, “fevereiro”, etc).
+
+algoritmo "nome_do_mes"
+
+var
+    mes: inteiro
+
+inicio
+    escreval("Digite o número do mês (1 a 12):")
+    leia(mes)
+
+    escolha mes
+        caso 1:
+            escreval("Janeiro")
+        caso 2:
+            escreval("Fevereiro")
+        caso 3:
+            escreval("Março")
+        caso 4:
+            escreval("Abril")
+        caso 5:
+            escreval("Maio")
+        caso 6:
+            escreval("Junho")
+        caso 7:
+            escreval("Julho")
+        caso 8:
+            escreval("Agosto")
+        caso 9:
+            escreval("Setembro")
+        caso 10:
+            escreval("Outubro")
+        caso 11:
+            escreval("Novembro")
+        caso 12:
+            escreval("Dezembro")
+        outrocaso:
+            escreval("Número do mês INVÁLIDO. Digite um número entre 1 e 12.")
+    fimescolha
+
+fimalgoritmo
+
